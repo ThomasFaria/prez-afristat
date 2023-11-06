@@ -1,0 +1,139 @@
+---
+title: Stratégie
+subtitle: |
+  **[BCEAO - Jour 4]{.orange}**
+author: "[Romain Avouac](https://github.com/avouacr), [Thomas Faria](https://github.com/ThomasFaria)"
+date: "09/25/2023"
+date-format: "D MMMM YYYY"
+slide-number: true
+lang: fr-FR
+# for blind readers:
+slide-tone: false
+chalkboard: # press the B key to toggle chalkboard
+  theme: whiteboard
+# uncomment to use the multiplex mode:
+# multiplex: true
+format:
+  onyxia-revealjs:
+    incremental: true
+    output-file: index.html
+controls: true
+css: style/custom.css
+from: markdown+emoji
+ascii: true
+execute: 
+  echo: false
+  warning: false
+---
+
+## Big data : une définition pragmatique
+
+- Une notion aux [**contours flous**]{.orange}
+
+- Une [**définition pragmatique**]{.orange}
+  - [**Volumétrie**]{.blue2} : difficiles à traiter sur des environnements usuels
+  - [**Variété**]{.blue2} : nécessite des méthodes de traitement non-standard
+  - Généralement [**non-collectée à des fins de statistique publique**]{.blue2}
+
+## Une transformation continue
+
+- De [**multiples dimensions**]{.orange} (démocratique, juridique, économique, méthodologique, technique)
+  - Des défis souvent déjà [**existants**]{.blue2} !
+
+- Une [**transformation continue**]{.orange} plutôt qu'une rupture
+  - Montée en compétence [**collective**]{.blue2}
+  - Innover sur les [**modes d'organisation**]{.blue2}
+
+. . .
+
+::: {.callout-tip title="Recommendations"}
+- Donner les [**moyens d'innover**]{.blue2}
+- Commencer par des [**projets pilotes**]{.blue2} pour prouver l'intérêt
+:::
+
+## Enjeux démocratiques et cadre juridique
+
+- [**Arbitrage**]{.orange} à trouver
+  - De [**nouvelles sources**]{.blue2} statistiques prometteuses
+  - Conserver la [**confiance**]{.blue2} des citoyens
+
+- Le [**cadre juridique**]{.orange} est garant de cette confiance
+  - Nécessité d'[**ajustements**]{.blue2} fréquents
+
+. . .
+
+::: {.callout-tip title="Recommendations"}
+- Assurer une [**veille**]{.blue2} sur l'évolution de la législation
+- Faire attention aux [**licences**]{.blue2} d'utilisation
+:::
+
+## Enjeux économiques
+
+- Des données souvent produites par des [**acteurs privés**]{.orange}
+  - Pas toujours la main sur le mode de collecte
+  - Volonté des acteurs de valoriser ces données
+
+. . .
+
+::: {.callout-tip title="Recommendations"}
+- Nouer des [**partenariats**]{.blue2} basés sur des intérêts réciproques
+- S'inspirer des [**expériences passées**]{.blue2} (cf. [ressources ESSNET Big Data](https://cros-legacy.ec.europa.eu/content/essnet-big-data-0_en))
+:::  
+
+## Infrastructure
+
+- Adoption de [**technologies modernes et évolutives**]{.orange}
+  - [**Stockage objet**]{.blue2} centralisé
+  - [**Conteneurisation**]{.blue2}
+
+- [**Faciliter l'accès**]{.orange} aux statisticiens
+  - [Projet Onyxia](https://github.com/InseeFrLab/onyxia)
+
+. . .
+
+::: {.callout-tip title="Recommendations"}
+- Mettre une [***sandbox***]{.blue2} à disposition pour l'innovation
+- Visio à venir sur les [**choix d'architecture**]{.blue2}
+:::  
+
+## Des outils à adapter
+
+- Transition vers des [**outils informatiques adaptés**]{.orange}
+  - Format de fichier : [**Parquet**]{.blue2}
+  - Traitement de données volumineuses : [**Arrow**]{.blue2}
+  - Traitement de données massives : [**Spark**]{.blue2}
+
+. . .
+
+::: {.callout-tip title="Recommendations"}
+- Transitionner vers des [**langages et outils open-source**]{.blue2} (R, Python)
+- Appliquer ces technologies à un [**projet**]{.blue2} concret
+:::  
+
+## De statisticien à data scientist
+
+- [**Veille méthodologique**]{.orange}
+  - Traitement des [**données non-structurées**]{.blue2}
+  - Méthodes de [**machine learning**]{.blue2}
+
+- Acculturation aux [**outils informatiques**]{.orange}
+  - [**Calcul distribué**]{.blue2}
+  - Outils pour la [**mise en production**]{.blue2}
+
+. . .
+
+::: {.callout-tip title="Recommendations"}
+- Favoriser la [**formation**]{.blue2} et [**l'auto-formation**]{.blue2}
+- Liens avec les [**écoles de formation**]{.blue2}
+- [Catalogue de formation du SSP Cloud](https://www.sspcloud.fr/formation)
+::: 
+
+## Discussion
+
+- [**Retours sur la formation**]{.orange} : durée, format des supports, répartition théorie/pratique, etc.
+
+- Identifier des [**besoins en documentation**]{.orange}
+
+- Discussion autour des [**sujets prioritaires**]{.orange} pour la BCEAO
+
+- Suites de la [**collaboration**]{.orange}
